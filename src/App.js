@@ -1,25 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Nav from './FirstPage/Nav'
+import Home from './FirstPage/Home'
+import Reviews from './FirstPage/Reviews'
+import Footer from './FirstPage/Footer'
+import {Route,Routes } from 'react-router-dom'
+import NowPlay from './Moviespage/NowPlay'
+import Popular from './Moviespage/Popular'
+import TopRate from './Moviespage/TopRate'
+import UpComing from './Moviespage/UpComing'
+import Loading from './loading/Loading'
+import Singlemovie from './Moviespage/Singlemovie'
 
-function App() {
+
+
+export default function App() {
+  
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div>
+      <Loading/>
+      <Nav/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/nowPlaying" element={<NowPlay/>} />
+        <Route path="/Popular" element={<Popular/>} />
+        <Route path="/TopRate" element={<TopRate/>}/>
+        <Route path="/UpComing" element={<UpComing/>}/>
+        <Route path="/Single/:id" element={<Singlemovie/>}/>
 
-export default App;
+        
+
+       
+       
+
+        
+
+       
+      </Routes>
+
+      <Reviews/>
+      <Footer/>
+     
+    
+      
+      
+
+      
+
+
+    </div>
+  )
+}
