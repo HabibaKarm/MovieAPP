@@ -1,3 +1,51 @@
+<h1>see the project</h1>
+<a href="https://habibakarm.github.io/MovieAPP/">click here</a>
+<h3>MovieApp</h3>
+
+
+A React application for managing and displaying movie information. This project utilizes React, and GitHub Pages is used for deployment. <br>
+
+## Features
+<ul>
+  <li>- View a list of movies.</li>
+   <li>- View detailed information about each movie.</li>
+</ul>
+
+
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (which includes npm)
+- [Git](https://git-scm.com/)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/HabibaKarm/MovieAPP.git
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
