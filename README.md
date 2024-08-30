@@ -1,4 +1,4 @@
-<h1>see the project</h1>
+<h1>See the project</h1>
 <a href="https://habibakarm.github.io/MovieAPP/">click here</a>
 <h3>MovieApp</h3>
 
